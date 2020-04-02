@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "covid19-web",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "description": "Basic statistics from various data sources on covid-19.",
+  "version": "1.0.0",
+  "author": "dmt5dh",
   "dependencies": {
     "gatsby": "^2.19.45",
     "gatsby-image": "^2.2.44",
