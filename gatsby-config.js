@@ -24,7 +24,7 @@ module.exports = {
       resolve: "gatsby-source-graphql",
       options: {
         // Arbitrary name for the remote schema Query type
-        typeName: "covid-global",
+        typeName: "CovidGlobal",
         // Field under which the remote schema will be accessible. You'll use this in your Gatsby query
         fieldName: "global",
         // Url to query from
