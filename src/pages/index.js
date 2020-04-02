@@ -7,9 +7,11 @@ import { getTotalSummary, getTodaysData } from "../utils/global/global"
 
 import GlobalDataConfiguration from "../utils/global/globalConfiguration"
 import SummaryTable from "../components/summaryTable"
+import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
+    <SEO title="Global Stats" />
     <StaticQuery
       query={graphql`
         query {

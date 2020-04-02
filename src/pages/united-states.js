@@ -1,5 +1,6 @@
 import React from "react"
 import { graphql, StaticQuery } from "gatsby"
+import SEO from "../components/seo"
 
 import Layout from "../components/layout"
 import SummaryTable from "../components/summaryTable"
@@ -9,6 +10,7 @@ import { getTotalSummary, cleanData } from "../utils/domestic/domestic"
 
 const UnitedStatesPage = () => (
   <Layout>
+    <SEO title="USA Stats" />
     <StaticQuery
       query={graphql`
         query {

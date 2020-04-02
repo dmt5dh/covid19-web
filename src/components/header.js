@@ -8,7 +8,7 @@ const Header = ({ siteTitle }) => (
       <Link to="/" className="text-white hover:text-gray-300 mr-10">
         Global
       </Link>
-      <Link to="united-states" className="text-white hover:text-gray-300">
+      <Link to="/united-states" className="text-white hover:text-gray-300">
         United States
       </Link>
     </div>
