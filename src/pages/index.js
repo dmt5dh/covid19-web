@@ -3,7 +3,7 @@ import { graphql, StaticQuery } from "gatsby"
 
 import Layout from "../components/layout"
 
-import { getTotalSummary } from "../utils/global/global"
+import { getTotalSummary, getTodaysData } from "../utils/global/global"
 
 import GlobalDataConfiguration from "../utils/global/globalConfiguration"
 import SummaryTable from "../components/summaryTable"
@@ -14,10 +14,11 @@ const IndexPage = () => (
       query={graphql`
         query {
           global {
-            results (date: {gt:"3/30/2020"}) {
+            results {
               country {
                 name
               }
+              date
               confirmed
               deaths
               recovered
@@ -26,20 +27,30 @@ const IndexPage = () => (
           }
         }
       `}
-
       render={data => {
-        if(!data.global) {
-          return <h1>Loading...</h1>
+        if (!data.global) {
+          return <h1 className="text-4xl m-auto">Loading...</h1>
         }
-        var aggregateData = getTotalSummary(data.global.results)
+
+        var todaysData = getTodaysData(data.global.results)
+        var aggregateData = getTotalSummary(todaysData.results)
         return (
           <>
-          <div className="text-gray-500 m-4">
-            <h1>Data source thanks to <a className="text-blue-600 hover:underline" href="https://github.com/rlindskog/covid19-graphql">rlindskog in collaboration with pomber & JHU data</a></h1>
-            <h1>**Data updated daily**</h1>
-          </div>
+            <div className="text-gray-500 m-4">
+              <h1>Showing latest data on {todaysData.date}</h1>
+              <h1>
+                Data source thanks to{" "}
+                <a
+                  className="text-blue-600 hover:underline"
+                  href="https://github.com/rlindskog/covid19-graphql"
+                >
+                  rlindskog in collaboration with pomber & JHU data
+                </a>
+              </h1>
+              <h1>**Data updated daily**</h1>
+            </div>
 
-          <h1 className="mx-auto underline text-2xl mb-6">Global Summary</h1>
+            <h1 className="mx-auto underline text-2xl mb-6">Global Summary</h1>
             <table className="table-auto mx-8 mb-10">
               <thead>
                 <tr>
@@ -50,22 +61,30 @@ const IndexPage = () => (
               </thead>
               <tbody>
                 <tr>
-                  <td className="border px-4 py-2 text-center">{aggregateData.totalConfirmed}</td>
-                  <td className="border px-4 py-2 text-center">{aggregateData.totalDeaths}</td>
-                  <td className="border px-4 py-2 text-center">{aggregateData.totalRecovered}</td>
+                  <td className="border px-4 py-2 text-center">
+                    {aggregateData.totalConfirmed.toLocaleString("en")}
+                  </td>
+                  <td className="border px-4 py-2 text-center">
+                    {aggregateData.totalDeaths.toLocaleString("en")}
+                  </td>
+                  <td className="border px-4 py-2 text-center">
+                    {aggregateData.totalRecovered.toLocaleString("en")}
+                  </td>
                 </tr>
               </tbody>
-            </table> 
+            </table>
 
-          <SummaryTable data={data.global.results} 
-              title={GlobalDataConfiguration.title} 
+            <SummaryTable
+              data={todaysData.results}
+              title={GlobalDataConfiguration.title}
               columns={GlobalDataConfiguration.columns}
               defaultSortField={GlobalDataConfiguration.defaultSortField}
-              keyField={GlobalDataConfiguration.keyField} />
+              keyField={GlobalDataConfiguration.keyField}
+            />
           </>
         )
       }}
-      />
+    />
   </Layout>
 )
 

@@ -26,10 +26,8 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
-      <div className="flex flex-col mx-8 mt-8 min-h-full">
-        {children}
-      </div>
-        {/* <footer>
+      <div className="flex flex-col mx-8 mt-8 min-h-full">{children}</div>
+      {/* <footer>
           © {new Date().getFullYear()}, Built with
           {` `}
           <a href="https://www.gatsbyjs.org">Gatsby</a>

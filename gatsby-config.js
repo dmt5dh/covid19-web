@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `COVID19 Web Stats`,
+    description: `Basic statistics from various data sources on covid-19.`,
+    author: `@dmt5dh`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -12,8 +12,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `COVID19-Web`,
+        short_name: `COVID19Web`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
@@ -29,6 +29,17 @@ module.exports = {
         fieldName: "global",
         // Url to query from
         url: "https://covid19-graphql.now.sh/",
+      },
+    },
+    {
+      resolve: "gatsby-source-graphql",
+      options: {
+        // Arbitrary name for the remote schema Query type
+        typeName: "CovidUSA",
+        // Field under which the remote schema will be accessible. You'll use this in your Gatsby query
+        fieldName: "usa",
+        // Url to query from
+        url: "https://covidtracking.com/api/graphql",
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

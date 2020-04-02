@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import React from "react"
 
 const Header = ({ siteTitle }) => (
-  <nav className="flex items-center justify-between flex-wrap bg-blue-600 p-6 text-xl">
+  <nav className="flex items-center justify-between flex-wrap bg-indigo-700 p-6 text-xl">
     <div className="mx-8 flex">
       <Link to="/" className="text-white hover:text-gray-300 mr-10">
         Global
