@@ -23,7 +23,8 @@ class MapPage extends React.Component {
         this.state = {
             dateDisplay: today.format('MM-DD-YYYY'),
             currentDay: today.diff(moment([2020, 2, 1]), 'days'),
-            totalDays: today.diff(moment([2020, 2, 1]), 'days')
+            totalDays: today.diff(moment([2020, 2, 1]), 'days'),
+            loading: true
         }
     }
 
@@ -53,6 +54,14 @@ class MapPage extends React.Component {
             center: [10.615040, 30.459741], 
             zoom: 1
             });
+
+            map.on("render", function() {
+                if(map.loaded()) {
+                    this.setState({
+                        loading: false,
+                    })
+                }
+            }.bind(this));
             
             map.on('load', function() {
                 map.resize()
@@ -96,11 +105,6 @@ class MapPage extends React.Component {
               });
 
               this.pageMap = map;
-
-              this.setState({
-                  loading: false,
-                })
-
     }
 
     addLayer = () => {
@@ -146,7 +150,14 @@ class MapPage extends React.Component {
             <Layout>
                 <h2 className="mx-auto text-base md:text-2xl">Confirmed cases for date: <label className="text-base md:text-2xl">{this.state.dateDisplay}</label></h2>
                 <p className="text-sm italic text-gray-600">Use slider to change date</p>
-                <input id='slider' className="slider w-full mb-6" type='range' min='0' max={this.state.totalDays} step='1' value={this.state.currentDay} onChange={this.handleSlider} />
+                
+                {!this.state.loading &&
+                        <input id='slider' className="slider w-full mb-6" type='range' min='0' max={this.state.totalDays} step='1' value={this.state.currentDay} onChange={this.handleSlider} />
+                }
+                {this.state.loading &&
+                        <input disabled id='slider' className="slider w-full mb-6" type='range' min='0' max={this.state.totalDays} step='1' value={this.state.currentDay} onChange={this.handleSlider} />
+                }
+                
                 <div style={{height:"65vh"}}>
                     <div className="mx-auto w-full md:w-4/6 h-full" ref={el=> this.mapContainer = el}></div>
                     <div className="mx-auto w-full md:w-4/6 bg-white mt-2">
