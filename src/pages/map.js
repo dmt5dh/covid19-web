@@ -178,16 +178,7 @@ class MapPage extends React.Component {
                             <div>100000+</div>
                         </div>
                     </div>
-                    <div className="text-gray-500 text-sm text-right">
-                    <h1>
-                        Data source thanks to{" "}
-                        <a
-                        className="text-blue-600 hover:underline"
-                        href="https://github.com/CSSEGISandData/COVID-19"
-                        >
-                        JHU CSSE
-                        </a>
-                    </h1>
+                    <div className="text-gray-500 text-sm text-right mb-6">
                     <h1>Figures updated daily</h1>
                 </div>      
                 </div>
