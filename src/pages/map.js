@@ -151,15 +151,17 @@ class MapPage extends React.Component {
             <Layout>
                 <SEO title="Global Map" />
                 <h2 className="mx-auto text-base md:text-2xl">Confirmed cases for date: <label className="text-base md:text-2xl">{this.state.dateDisplay}</label></h2>
-                <p className="text-sm italic text-gray-600">Use slider to change date</p>
                 
-                {!this.state.loading &&
-                        <input id='slider' className="slider w-full mb-6" type='range' min='0' max={this.state.totalDays} step='1' value={this.state.currentDay} onChange={this.handleSlider} />
-                }
-                {this.state.loading &&
-                        <input disabled id='slider' className="slider w-full mb-6" type='range' min='0' max={this.state.totalDays} step='1' value={this.state.currentDay} onChange={this.handleSlider} />
-                }
-                
+                <div className="w-full md:w-4/6 mx-auto mb-4">
+                    <p className="text-sm italic text-gray-600">Use slider to change date</p>
+                    {!this.state.loading &&
+                            <input id='slider' className="slider" type='range' min='0' max={this.state.totalDays} step='1' value={this.state.currentDay} onChange={this.handleSlider} />
+                    }
+                    {this.state.loading &&
+                            <input disabled id='slider' className="slider" type='range' min='0' max={this.state.totalDays} step='1' value={this.state.currentDay} onChange={this.handleSlider} />
+                    }
+                </div>
+            
                 <div style={{height:"65vh"}}>
                     <div className="mx-auto w-full md:w-4/6 h-full" ref={el=> this.mapContainer = el}></div>
                     <div className="mx-auto w-full md:w-4/6 bg-white mt-2">
