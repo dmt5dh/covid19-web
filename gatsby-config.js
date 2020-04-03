@@ -31,17 +31,19 @@ module.exports = {
         url: "https://covid19-graphql.now.sh/",
       },
     },
-    {
-      resolve: "gatsby-source-graphql",
-      options: {
-        // Arbitrary name for the remote schema Query type
-        typeName: "CovidUSA",
-        // Field under which the remote schema will be accessible. You'll use this in your Gatsby query
-        fieldName: "usa",
-        // Url to query from
-        url: "https://covidtracking.com/api/graphql",
-      },
-    },
+    
+    //TODO: Bring back whenever USA data back online
+    // {
+    //   resolve: "gatsby-source-graphql",
+    //   options: {
+    //     // Arbitrary name for the remote schema Query type
+    //     typeName: "CovidUSA",
+    //     // Field under which the remote schema will be accessible. You'll use this in your Gatsby query
+    //     fieldName: "usa",
+    //     // Url to query from
+    //     url: "https://covidtracking.com/api/graphql",
+    //   },
+    // },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
