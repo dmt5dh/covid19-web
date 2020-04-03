@@ -38,22 +38,10 @@ const IndexPage = () => (
         var aggregateData = getTotalSummary(todaysData.results)
         return (
           <>
-            <div className="text-gray-500 m-4">
-              <h1>Showing latest data on {todaysData.date}</h1>
-              <h1>
-                Data source thanks to{" "}
-                <a
-                  className="text-blue-600 hover:underline"
-                  href="https://github.com/rlindskog/covid19-graphql"
-                >
-                  rlindskog in collaboration with pomber & JHU data
-                </a>
-              </h1>
-              <h1>**Data updated daily**</h1>
-            </div>
 
-            <h1 className="mx-auto underline text-2xl mb-6">Global Summary</h1>
-            <table className="table-auto mx-8 mb-10">
+            <h1 className="mx-auto underline text-2xl">Global Summary</h1>
+            <p className="mx-auto text-gray-500 text-sm">Showing latest data on {todaysData.date} **Data updated daily**</p>
+            <table className="table-auto mx-auto md:mx-8 mb-10">
               <thead>
                 <tr>
                   <th className="border px-4 py-2">Confirmed</th>

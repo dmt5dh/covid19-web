@@ -2,9 +2,10 @@ import React from "react"
 import mapboxgl from "mapbox-gl"
 import moment from "moment"
 
-import './map.css'
+import '../styles/map.css'
 
 import Layout from "../components/layout"
+import SEO from "../components/seo"
 
 mapboxgl.accessToken = 'pk.eyJ1IjoiZG10bWFwcyIsImEiOiJjazhpOXczZXowM3l3M2dtMXdvbmVuejJqIn0.7qF25W9xmSvQp2GVsXNJKA'; 
 
@@ -148,6 +149,7 @@ class MapPage extends React.Component {
 
         return (
             <Layout>
+                <SEO title="Global Map" />
                 <h2 className="mx-auto text-base md:text-2xl">Confirmed cases for date: <label className="text-base md:text-2xl">{this.state.dateDisplay}</label></h2>
                 <p className="text-sm italic text-gray-600">Use slider to change date</p>
                 
