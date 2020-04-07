@@ -1,32 +1,67 @@
 import React from "react"
 import DataTable from "react-data-table-component"
 
-const SummaryTable = ({ data, title, columns, defaultSortField, keyField }) => {
+class SummaryTable extends React.Component {
 
-    //react-data-table-component relies on document which we'll skip during server side rendering on build
-    if(typeof document === `undefined`) {
-        return (
-            null
-        )
+    constructor(props){
+        super(props);
+
+        this.state = {
+            filterText: "",
+            filterData: this.props.data
+        }
     }
 
-    return (
-        <div className="mx-8">
-            <h1 className="underline text-center text-2xl">{title}</h1>
-            <DataTable
-            noHeader={true}
-            columns={columns}
-            data={data}
-            defaultSortField={defaultSortField}
-            defaultSortAsc={false}
-            keyField={keyField}
-            striped={true}
-            highlightOnHover={true}
-            pagination={true}
-            dense={true}
-            />
-        </div>
-    )
+    handleSearch = (event) => {
+        event.preventDefault()
+        var text = event.target.value
+        console.log(text)
+        if(text) {
+            var tmpData = this.props.data //because we don't wanna dirty things up in transit
+
+            tmpData = tmpData.filter(item => item.country.name && item.country.name.toLowerCase().includes(text.toLowerCase()));
+            this.setState({
+                filterText: text,
+                filterData: tmpData
+            })
+        }
+        else {
+            this.setState({
+                filterText: "",
+                filterData: this.props.data
+            }) 
+        }
+    }
+
+    render() {
+        //react-data-table-component relies on document which we'll skip during server side rendering on build
+        if(typeof document === `undefined`) {
+            return (
+                null
+            )
+        }
+
+        return (
+            <div className="mx-8">
+                <h1 className="underline text-center text-2xl">{this.props.title}</h1>
+                <div className="w-full text-right">
+                    <input className="shadow appearance-none border rounded w-full sm:w-3/12 py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" type="text" onChange={this.handleSearch} value={this.state.filterText} placeholder="Search by Country"/>
+                </div>
+                <DataTable
+                noHeader={true}
+                columns={this.props.columns}
+                data={this.state.filterData}
+                defaultSortField={this.props.defaultSortField}
+                defaultSortAsc={false}
+                keyField={this.props.keyField}
+                striped={true}
+                highlightOnHover={true}
+                pagination={true}
+                dense={true}
+                />
+            </div>
+        )
+    }
 }
 
 export default SummaryTable
