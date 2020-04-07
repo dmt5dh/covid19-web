@@ -45,8 +45,8 @@ const IndexPage = () => (
               <thead>
                 <tr>
                   <th className="border px-4 py-2">Confirmed</th>
-                  <th className="border px-4 py-2">Deaths</th>
                   <th className="border px-4 py-2">Recovered</th>
+                  <th className="border px-4 py-2">Deaths</th>
                 </tr>
               </thead>
               <tbody>
@@ -55,10 +55,10 @@ const IndexPage = () => (
                     {aggregateData.totalConfirmed.toLocaleString("en")}
                   </td>
                   <td className="border px-4 py-2 text-center">
-                    {aggregateData.totalDeaths.toLocaleString("en")}
+                    {aggregateData.totalRecovered.toLocaleString("en")}
                   </td>
                   <td className="border px-4 py-2 text-center">
-                    {aggregateData.totalRecovered.toLocaleString("en")}
+                    {aggregateData.totalDeaths.toLocaleString("en")}
                   </td>
                 </tr>
               </tbody>

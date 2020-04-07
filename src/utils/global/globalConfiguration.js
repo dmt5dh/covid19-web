@@ -4,6 +4,7 @@ const GlobalDataConfiguration = {
       name: "Country",
       selector: "country.name",
       sortable: true,
+      wrap: true
     },
     {
       name: "Confirmed Cases",
@@ -11,13 +12,13 @@ const GlobalDataConfiguration = {
       sortable: true,
     },
     {
-      name: "Deaths",
-      selector: "deaths",
+      name: "Recovered Cases",
+      selector: "recovered",
       sortable: true,
     },
     {
-      name: "Recovered Cases",
-      selector: "recovered",
+      name: "Deaths",
+      selector: "deaths",
       sortable: true,
     },
     {

@@ -23,6 +23,7 @@ const SummaryTable = ({ data, title, columns, defaultSortField, keyField }) => {
             striped={true}
             highlightOnHover={true}
             pagination={true}
+            dense={true}
             />
         </div>
     )
