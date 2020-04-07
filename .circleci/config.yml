@@ -23,6 +23,25 @@ jobs:
       - run:
           name: Gatsby Build
           command: npm run build
+  deploy:
+    steps:
       - run:
           name: Firebase Deploy
           command: ./node_modules/.bin/firebase deploy --token "$FIREBASE_TOKEN"
+workflows:
+  version: 2
+  commit-workflow:
+    jobs:
+      - build
+      - deploy
+  schedule-workflow:
+    triggers:
+      - schedule:
+        cron: "5 1 * * *"
+        filters:
+          branches:
+            only:
+              - master
+    jobs:
+      - build
+      - deploy
