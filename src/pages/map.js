@@ -12,7 +12,7 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiZG10bWFwcyIsImEiOiJjazhpOXczZXowM3l3M2dtMXdvb
 // const today = moment().add(-1, 'days');
 
 //TODO: set to april 1st for now... make this dynamic later
-const today = moment([2020, 3, 1])
+const today = moment().add(-2, 'days');
 
 class MapPage extends React.Component {
 
@@ -23,8 +23,8 @@ class MapPage extends React.Component {
 
         this.state = {
             dateDisplay: today.format('MM-DD-YYYY'),
-            currentDay: today.diff(moment([2020, 2, 1]), 'days'),
-            totalDays: today.diff(moment([2020, 2, 1]), 'days'),
+            currentDay: today.diff(moment([2020, 0, 22]), 'days'),
+            totalDays: today.diff(moment([2020, 0, 22]), 'days'),
             loading: true
         }
     }
@@ -39,10 +39,9 @@ class MapPage extends React.Component {
 
         this.setState({
             dateDisplay: newDay.format('MM-DD-YYYY'),
-            currentDay: newDay.diff(moment([2020, 2, 1]), 'days'),
+            currentDay: newDay.diff(moment([2020, 0, 22]), 'days'),
         })
 
-        console.log(this.state.currentDay)
         this.pageMap.getSource('covid19-data').setData(`/data/daily_summary/geojson/${this.state.dateDisplay}.geojson`)
 
         // this.pageMap.setFilter('collisions', ['==', ['number', ['get', 'Hour']], this.state.hour]);
@@ -162,7 +161,7 @@ class MapPage extends React.Component {
                     }
                 </div>
             
-                <div style={{height:"65vh"}}>
+                <div className="map">
                     <div className="mx-auto w-full md:w-4/6 h-full" ref={el=> this.mapContainer = el}></div>
                     <div className="mx-auto w-full md:w-4/6 bg-white mt-2">
                         <div style={{

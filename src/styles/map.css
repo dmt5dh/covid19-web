@@ -27,3 +27,13 @@
   background: rgb(33, 5, 44);
   cursor: pointer;
 }
+
+@screen md {
+  .map {
+    height: 65vh;
+  }
+}
+
+.map {
+  height: 55vh;
+}

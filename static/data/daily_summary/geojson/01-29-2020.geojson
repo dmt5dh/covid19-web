@@ -11,7 +11,13 @@
         "Deaths": 125,
         "Recovered": 88
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.2384017,
+          30.7378118
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -23,7 +29,13 @@
         "Deaths": 0,
         "Recovered": 3
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.7889248,
+          29.1416432
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -35,7 +47,13 @@
         "Deaths": 0,
         "Recovered": 5
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.7632828,
+          23.3790333
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -47,7 +65,13 @@
         "Deaths": 0,
         "Recovered": 0
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.8568586,
+          27.6252995
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -59,7 +83,13 @@
         "Deaths": 2,
         "Recovered": 1
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.3823545,
+          34.2904302
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -71,7 +101,13 @@
         "Deaths": 0,
         "Recovered": 2
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.9249002,
+          30.6006773
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -83,7 +119,13 @@
         "Deaths": 0,
         "Recovered": 1
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.912251,
+          29.4315861
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -95,7 +137,13 @@
         "Deaths": 0,
         "Recovered": 1
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.9249002,
+          35.8939566
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -107,7 +155,13 @@
         "Deaths": 1,
         "Recovered": 4
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.4073963,
+          39.90419989999999
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -119,7 +173,13 @@
         "Deaths": 0,
         "Recovered": 3
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.9042208,
+          27.0874564
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -131,7 +191,13 @@
         "Deaths": 1,
         "Recovered": 1
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.8054753,
+          30.26380319999999
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -143,7 +209,13 @@
         "Deaths": 0,
         "Recovered": 1
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.7889248,
+          33.1401715
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -155,7 +227,13 @@
         "Deaths": 1,
         "Recovered": 5
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.473701,
+          31.230416
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -167,7 +245,13 @@
         "Deaths": 0,
         "Recovered": 0
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.9249002,
+          26.4836842
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -179,7 +263,13 @@
         "Deaths": 0,
         "Recovered": 2
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.8076195,
+          23.7247599
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -191,7 +281,13 @@
         "Deaths": 0,
         "Recovered": 0
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.1880047,
+          35.3939908
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -203,7 +299,13 @@
         "Deaths": 0,
         "Recovered": 0
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.3431058,
+          24.4752847
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -215,7 +317,13 @@
         "Deaths": 1,
         "Recovered": 0
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.9042208,
+          37.8956594
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -227,7 +335,13 @@
         "Deaths": 1,
         "Recovered": 0
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.949686,
+          19.5663947
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -239,7 +353,13 @@
         "Deaths": 0,
         "Recovered": 1
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.5290376,
+          41.9436543
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -251,7 +371,13 @@
         "Deaths": 1,
         "Recovered": 0
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.738231,
+          47.12164720000001
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -263,7 +389,13 @@
         "Deaths": 0,
         "Recovered": 0
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.3616476,
+          39.3433574
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -275,7 +407,13 @@
         "Deaths": 0,
         "Recovered": 1
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.8568586,
+          37.2425649
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -287,7 +425,13 @@
         "Deaths": 0,
         "Recovered": 0
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.2861116,
+          35.7518326
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -299,7 +443,13 @@
         "Deaths": 0,
         "Recovered": 0
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.0594815,
+          43.37822
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -311,7 +461,13 @@
         "Deaths": 0,
         "Recovered": 0
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.5395855,
+          42.5246357
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -323,7 +479,13 @@
         "Deaths": 0,
         "Recovered": 0
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.1580937,
+          37.198731
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -335,7 +497,13 @@
         "Deaths": 0,
         "Recovered": 0
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1693611,
+          22.3193039
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -347,7 +515,13 @@
         "Deaths": 0,
         "Recovered": 1
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.2902839,
+          26.8429645
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -359,7 +533,13 @@
         "Deaths": 0,
         "Recovered": 0
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.549572,
+          43.837883
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -371,7 +551,13 @@
         "Deaths": 0,
         "Recovered": 0
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.960515,
+          23.69781
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -383,7 +569,13 @@
         "Deaths": 0,
         "Recovered": 0
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.543873,
+          22.198745
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -395,7 +587,13 @@
         "Deaths": 0,
         "Recovered": 0
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          96.4077358,
+          35.744798
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -407,7 +605,13 @@
         "Deaths": 0,
         "Recovered": 0
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.7401385,
+          47.7510741
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -419,7 +623,13 @@
         "Deaths": 0,
         "Recovered": 0
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3985283,
+          40.6331249
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -431,7 +641,13 @@
         "Deaths": 0,
         "Recovered": 0
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4179324,
+          36.778261
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -443,7 +659,13 @@
         "Deaths": 0,
         "Recovered": 0
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.0937311,
+          34.0489281
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -455,7 +677,13 @@
         "Deaths": 0,
         "Recovered": 1
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.252924,
+          36.204824
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -467,7 +695,13 @@
         "Deaths": 0,
         "Recovered": 5
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.992541,
+          15.870032
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -479,7 +713,13 @@
         "Deaths": 0,
         "Recovered": 0
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.766922,
+          35.907757
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -491,7 +731,13 @@
         "Deaths": 0,
         "Recovered": 0
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.819836,
+          1.352083
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -503,7 +749,13 @@
         "Deaths": 0,
         "Recovered": 0
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.277199,
+          14.058324
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -515,7 +767,13 @@
         "Deaths": 0,
         "Recovered": 0
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.213749,
+          46.227638
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -527,7 +785,13 @@
         "Deaths": 0,
         "Recovered": 0
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.12400799999999,
+          28.394857
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -539,7 +803,13 @@
         "Deaths": 0,
         "Recovered": 0
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.975766,
+          4.210484
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -551,7 +821,13 @@
         "Deaths": 0,
         "Recovered": 0
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.323214,
+          51.253775
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -563,7 +839,13 @@
         "Deaths": 0,
         "Recovered": 0
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -127.6476205,
+          53.7266683
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -575,7 +857,13 @@
         "Deaths": 0,
         "Recovered": 0
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.990963,
+          12.565679
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -587,7 +875,13 @@
         "Deaths": 0,
         "Recovered": 0
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.77179699999999,
+          7.873053999999999
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -599,7 +893,13 @@
         "Deaths": 0,
         "Recovered": 0
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.921099,
+          -31.2532183
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -611,7 +911,13 @@
         "Deaths": 0,
         "Recovered": 0
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.7851531,
+          -37.4713077
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -623,7 +929,13 @@
         "Deaths": 0,
         "Recovered": 0
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4978895,
+          48.7904472
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -635,7 +947,13 @@
         "Deaths": 0,
         "Recovered": 0
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.7481511,
+          61.92410999999999
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -645,9 +963,15 @@
         "Last Update": "1/29/20 19:30",
         "Confirmed": 4,
         "Deaths": 0,
-        "Recovered": null
+        "Recovered": 0
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.847818,
+          23.424076
+        ]
+      }
     }
   ]
 }

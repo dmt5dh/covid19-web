@@ -8,8 +8,8 @@
         "Country/Region": "Mainland China",
         "Last Update": "2020-03-10T15:13:05",
         "Confirmed": 67760,
-        "Deaths": 3024,
-        "Recovered": 47743
+        "Deaths": "3024",
+        "Recovered": "47743"
       },
       "geometry": {
         "type": "Point",
@@ -26,8 +26,8 @@
         "Country/Region": "Italy",
         "Last Update": "2020-03-10T17:53:02",
         "Confirmed": 10149,
-        "Deaths": 631,
-        "Recovered": 724
+        "Deaths": "631",
+        "Recovered": "724"
       },
       "geometry": {
         "type": "Point",
@@ -44,8 +44,8 @@
         "Country/Region": "Iran (Islamic Republic of)",
         "Last Update": "2020-03-10T19:13:20",
         "Confirmed": 8042,
-        "Deaths": 291,
-        "Recovered": 2731
+        "Deaths": "291",
+        "Recovered": "2731"
       },
       "geometry": {
         "type": "Point",
@@ -62,8 +62,8 @@
         "Country/Region": "Republic of Korea",
         "Last Update": "2020-03-10T19:13:20",
         "Confirmed": 7513,
-        "Deaths": 54,
-        "Recovered": 247
+        "Deaths": "54",
+        "Recovered": "247"
       },
       "geometry": {
         "type": "Point",
@@ -80,8 +80,8 @@
         "Country/Region": "France",
         "Last Update": "2020-03-10T18:53:02",
         "Confirmed": 1784,
-        "Deaths": 33,
-        "Recovered": 12
+        "Deaths": "33",
+        "Recovered": "12"
       },
       "geometry": {
         "type": "Point",
@@ -98,8 +98,8 @@
         "Country/Region": "Spain",
         "Last Update": "2020-03-10T23:53:02",
         "Confirmed": 1695,
-        "Deaths": 35,
-        "Recovered": 32
+        "Deaths": "35",
+        "Recovered": "32"
       },
       "geometry": {
         "type": "Point",
@@ -116,8 +116,8 @@
         "Country/Region": "Germany",
         "Last Update": "2020-03-10T18:53:02",
         "Confirmed": 1457,
-        "Deaths": 2,
-        "Recovered": 18
+        "Deaths": "2",
+        "Recovered": "18"
       },
       "geometry": {
         "type": "Point",
@@ -134,8 +134,8 @@
         "Country/Region": "Mainland China",
         "Last Update": "2020-03-10T09:13:07",
         "Confirmed": 1353,
-        "Deaths": 8,
-        "Recovered": 1274
+        "Deaths": "8",
+        "Recovered": "1274"
       },
       "geometry": {
         "type": "Point",
@@ -152,8 +152,8 @@
         "Country/Region": "Mainland China",
         "Last Update": "2020-03-08T05:03:02",
         "Confirmed": 1272,
-        "Deaths": 22,
-        "Recovered": 1247
+        "Deaths": "22",
+        "Recovered": "1247"
       },
       "geometry": {
         "type": "Point",
@@ -170,8 +170,8 @@
         "Country/Region": "Mainland China",
         "Last Update": "2020-03-10T10:33:02",
         "Confirmed": 1215,
-        "Deaths": 1,
-        "Recovered": 1191
+        "Deaths": "1",
+        "Recovered": "1191"
       },
       "geometry": {
         "type": "Point",
@@ -188,8 +188,8 @@
         "Country/Region": "Mainland China",
         "Last Update": "2020-03-10T08:33:02",
         "Confirmed": 1018,
-        "Deaths": 4,
-        "Recovered": 990
+        "Deaths": "4",
+        "Recovered": "990"
       },
       "geometry": {
         "type": "Point",
@@ -206,8 +206,8 @@
         "Country/Region": "Mainland China",
         "Last Update": "2020-03-08T05:13:06",
         "Confirmed": 990,
-        "Deaths": 6,
-        "Recovered": 984
+        "Deaths": "6",
+        "Recovered": "984"
       },
       "geometry": {
         "type": "Point",
@@ -224,8 +224,8 @@
         "Country/Region": "Mainland China",
         "Last Update": "2020-03-10T01:33:02",
         "Confirmed": 935,
-        "Deaths": 1,
-        "Recovered": 927
+        "Deaths": "1",
+        "Recovered": "927"
       },
       "geometry": {
         "type": "Point",
@@ -242,8 +242,8 @@
         "Country/Region": "Mainland China",
         "Last Update": "2020-03-10T07:33:03",
         "Confirmed": 758,
-        "Deaths": 6,
-        "Recovered": 719
+        "Deaths": "6",
+        "Recovered": "719"
       },
       "geometry": {
         "type": "Point",
@@ -260,8 +260,8 @@
         "Country/Region": "Others",
         "Last Update": "2020-03-06T01:29:39",
         "Confirmed": 696,
-        "Deaths": 6,
-        "Recovered": 40
+        "Deaths": "6",
+        "Recovered": "40"
       },
       "geometry": {
         "type": "Point",
@@ -278,8 +278,8 @@
         "Country/Region": "Mainland China",
         "Last Update": "2020-03-10T08:13:08",
         "Confirmed": 631,
-        "Deaths": 0,
-        "Recovered": 627
+        "Deaths": "0",
+        "Recovered": "627"
       },
       "geometry": {
         "type": "Point",
@@ -296,8 +296,8 @@
         "Country/Region": "Japan",
         "Last Update": "2020-03-10T16:13:16",
         "Confirmed": 581,
-        "Deaths": 10,
-        "Recovered": 101
+        "Deaths": "10",
+        "Recovered": "101"
       },
       "geometry": {
         "type": "Point",
@@ -314,8 +314,8 @@
         "Country/Region": "Mainland China",
         "Last Update": "2020-03-10T23:53:02",
         "Confirmed": 576,
-        "Deaths": 6,
-        "Recovered": 547
+        "Deaths": "6",
+        "Recovered": "547"
       },
       "geometry": {
         "type": "Point",
@@ -332,8 +332,8 @@
         "Country/Region": "Mainland China",
         "Last Update": "2020-03-10T10:13:17",
         "Confirmed": 539,
-        "Deaths": 3,
-        "Recovered": 478
+        "Deaths": "3",
+        "Recovered": "478"
       },
       "geometry": {
         "type": "Point",
@@ -350,8 +350,8 @@
         "Country/Region": "Switzerland",
         "Last Update": "2020-03-10T23:53:02",
         "Confirmed": 491,
-        "Deaths": 3,
-        "Recovered": 3
+        "Deaths": "3",
+        "Recovered": "3"
       },
       "geometry": {
         "type": "Point",
@@ -368,8 +368,8 @@
         "Country/Region": "Mainland China",
         "Last Update": "2020-03-10T00:13:18",
         "Confirmed": 481,
-        "Deaths": 13,
-        "Recovered": 434
+        "Deaths": "13",
+        "Recovered": "434"
       },
       "geometry": {
         "type": "Point",
@@ -386,8 +386,8 @@
         "Country/Region": "Mainland China",
         "Last Update": "2020-03-10T01:13:07",
         "Confirmed": 429,
-        "Deaths": 8,
-        "Recovered": 320
+        "Deaths": "8",
+        "Recovered": "320"
       },
       "geometry": {
         "type": "Point",
@@ -404,8 +404,8 @@
         "Country/Region": "Norway",
         "Last Update": "2020-03-10T23:53:02",
         "Confirmed": 400,
-        "Deaths": 0,
-        "Recovered": 1
+        "Deaths": "0",
+        "Recovered": "1"
       },
       "geometry": {
         "type": "Point",
@@ -422,8 +422,8 @@
         "Country/Region": "Netherlands",
         "Last Update": "2020-03-10T13:53:06",
         "Confirmed": 382,
-        "Deaths": 4,
-        "Recovered": 0
+        "Deaths": "4",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -440,8 +440,8 @@
         "Country/Region": "UK",
         "Last Update": "2020-03-10T23:53:02",
         "Confirmed": 382,
-        "Deaths": 6,
-        "Recovered": 18
+        "Deaths": "6",
+        "Recovered": "18"
       },
       "geometry": {
         "type": "Point",
@@ -458,8 +458,8 @@
         "Country/Region": "Sweden",
         "Last Update": "2020-03-10T23:53:02",
         "Confirmed": 355,
-        "Deaths": 0,
-        "Recovered": 1
+        "Deaths": "0",
+        "Recovered": "1"
       },
       "geometry": {
         "type": "Point",
@@ -476,8 +476,8 @@
         "Country/Region": "Mainland China",
         "Last Update": "2020-03-10T06:13:14",
         "Confirmed": 344,
-        "Deaths": 3,
-        "Recovered": 319
+        "Deaths": "3",
+        "Recovered": "319"
       },
       "geometry": {
         "type": "Point",
@@ -494,8 +494,8 @@
         "Country/Region": "Mainland China",
         "Last Update": "2020-03-07T13:03:05",
         "Confirmed": 318,
-        "Deaths": 6,
-        "Recovered": 307
+        "Deaths": "6",
+        "Recovered": "307"
       },
       "geometry": {
         "type": "Point",
@@ -512,8 +512,8 @@
         "Country/Region": "Mainland China",
         "Last Update": "2020-03-07T13:03:05",
         "Confirmed": 296,
-        "Deaths": 1,
-        "Recovered": 295
+        "Deaths": "1",
+        "Recovered": "295"
       },
       "geometry": {
         "type": "Point",
@@ -530,8 +530,8 @@
         "Country/Region": "Belgium",
         "Last Update": "2020-03-10T11:53:03",
         "Confirmed": 267,
-        "Deaths": 0,
-        "Recovered": 1
+        "Deaths": "0",
+        "Recovered": "1"
       },
       "geometry": {
         "type": "Point",
@@ -548,8 +548,8 @@
         "Country/Region": "US",
         "Last Update": "2020-03-10T22:13:11",
         "Confirmed": 267,
-        "Deaths": 23,
-        "Recovered": 1
+        "Deaths": "23",
+        "Recovered": "1"
       },
       "geometry": {
         "type": "Point",
@@ -566,8 +566,8 @@
         "Country/Region": "Denmark",
         "Last Update": "2020-03-10T17:33:34",
         "Confirmed": 262,
-        "Deaths": 0,
-        "Recovered": 1
+        "Deaths": "0",
+        "Recovered": "1"
       },
       "geometry": {
         "type": "Point",
@@ -584,8 +584,8 @@
         "Country/Region": "Mainland China",
         "Last Update": "2020-03-10T00:53:02",
         "Confirmed": 252,
-        "Deaths": 2,
-        "Recovered": 234
+        "Deaths": "2",
+        "Recovered": "234"
       },
       "geometry": {
         "type": "Point",
@@ -602,8 +602,8 @@
         "Country/Region": "Mainland China",
         "Last Update": "2020-03-10T08:53:02",
         "Confirmed": 245,
-        "Deaths": 1,
-        "Recovered": 227
+        "Deaths": "1",
+        "Recovered": "227"
       },
       "geometry": {
         "type": "Point",
@@ -620,8 +620,8 @@
         "Country/Region": "Austria",
         "Last Update": "2020-03-10T16:13:16",
         "Confirmed": 182,
-        "Deaths": 0,
-        "Recovered": 4
+        "Deaths": "0",
+        "Recovered": "4"
       },
       "geometry": {
         "type": "Point",
@@ -638,8 +638,8 @@
         "Country/Region": "Mainland China",
         "Last Update": "2020-03-06T03:23:06",
         "Confirmed": 174,
-        "Deaths": 2,
-        "Recovered": 170
+        "Deaths": "2",
+        "Recovered": "170"
       },
       "geometry": {
         "type": "Point",
@@ -656,8 +656,8 @@
         "Country/Region": "US",
         "Last Update": "2020-03-10T17:13:27",
         "Confirmed": 173,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -674,8 +674,8 @@
         "Country/Region": "Mainland China",
         "Last Update": "2020-03-08T04:33:02",
         "Confirmed": 168,
-        "Deaths": 6,
-        "Recovered": 159
+        "Deaths": "6",
+        "Recovered": "159"
       },
       "geometry": {
         "type": "Point",
@@ -692,8 +692,8 @@
         "Country/Region": "Singapore",
         "Last Update": "2020-03-10T05:13:07",
         "Confirmed": 160,
-        "Deaths": 0,
-        "Recovered": 78
+        "Deaths": "0",
+        "Recovered": "78"
       },
       "geometry": {
         "type": "Point",
@@ -710,8 +710,8 @@
         "Country/Region": "Mainland China",
         "Last Update": "2020-03-10T01:13:07",
         "Confirmed": 146,
-        "Deaths": 2,
-        "Recovered": 129
+        "Deaths": "2",
+        "Recovered": "129"
       },
       "geometry": {
         "type": "Point",
@@ -728,8 +728,8 @@
         "Country/Region": "US",
         "Last Update": "2020-03-10T19:13:28",
         "Confirmed": 144,
-        "Deaths": 2,
-        "Recovered": 2
+        "Deaths": "2",
+        "Recovered": "2"
       },
       "geometry": {
         "type": "Point",
@@ -746,8 +746,8 @@
         "Country/Region": "Mainland China",
         "Last Update": "2020-03-10T10:13:25",
         "Confirmed": 136,
-        "Deaths": 3,
-        "Recovered": 131
+        "Deaths": "3",
+        "Recovered": "131"
       },
       "geometry": {
         "type": "Point",
@@ -764,8 +764,8 @@
         "Country/Region": "Mainland China",
         "Last Update": "2020-03-10T23:53:02",
         "Confirmed": 133,
-        "Deaths": 0,
-        "Recovered": 131
+        "Deaths": "0",
+        "Recovered": "131"
       },
       "geometry": {
         "type": "Point",
@@ -782,8 +782,8 @@
         "Country/Region": "Malaysia",
         "Last Update": "2020-03-10T16:33:13",
         "Confirmed": 129,
-        "Deaths": 0,
-        "Recovered": 24
+        "Deaths": "0",
+        "Recovered": "24"
       },
       "geometry": {
         "type": "Point",
@@ -800,8 +800,8 @@
         "Country/Region": "Mainland China",
         "Last Update": "2020-03-10T14:33:13",
         "Confirmed": 125,
-        "Deaths": 2,
-        "Recovered": 88
+        "Deaths": "2",
+        "Recovered": "88"
       },
       "geometry": {
         "type": "Point",
@@ -818,8 +818,8 @@
         "Country/Region": "Mainland China",
         "Last Update": "2020-03-10T04:13:09",
         "Confirmed": 125,
-        "Deaths": 1,
-        "Recovered": 111
+        "Deaths": "1",
+        "Recovered": "111"
       },
       "geometry": {
         "type": "Point",
@@ -836,8 +836,8 @@
         "Country/Region": "Hong Kong SAR",
         "Last Update": "2020-03-10T23:53:02",
         "Confirmed": 120,
-        "Deaths": 3,
-        "Recovered": 65
+        "Deaths": "3",
+        "Recovered": "65"
       },
       "geometry": {
         "type": "Point",
@@ -854,8 +854,8 @@
         "Country/Region": "Bahrain",
         "Last Update": "2020-03-10T18:53:02",
         "Confirmed": 110,
-        "Deaths": 0,
-        "Recovered": 22
+        "Deaths": "0",
+        "Recovered": "22"
       },
       "geometry": {
         "type": "Point",
@@ -872,8 +872,8 @@
         "Country/Region": "Mainland China",
         "Last Update": "2020-03-09T14:33:03",
         "Confirmed": 93,
-        "Deaths": 1,
-        "Recovered": 91
+        "Deaths": "1",
+        "Recovered": "91"
       },
       "geometry": {
         "type": "Point",
@@ -890,8 +890,8 @@
         "Country/Region": "US",
         "Last Update": "2020-03-10T22:13:11",
         "Confirmed": 92,
-        "Deaths": 0,
-        "Recovered": 1
+        "Deaths": "0",
+        "Recovered": "1"
       },
       "geometry": {
         "type": "Point",
@@ -908,8 +908,8 @@
         "Country/Region": "Greece",
         "Last Update": "2020-03-10T10:53:03",
         "Confirmed": 89,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -926,8 +926,8 @@
         "Country/Region": "Mainland China",
         "Last Update": "2020-03-08T05:33:02",
         "Confirmed": 76,
-        "Deaths": 3,
-        "Recovered": 73
+        "Deaths": "3",
+        "Recovered": "73"
       },
       "geometry": {
         "type": "Point",
@@ -944,8 +944,8 @@
         "Country/Region": "Mainland China",
         "Last Update": "2020-03-08T05:13:06",
         "Confirmed": 75,
-        "Deaths": 1,
-        "Recovered": 70
+        "Deaths": "1",
+        "Recovered": "70"
       },
       "geometry": {
         "type": "Point",
@@ -962,8 +962,8 @@
         "Country/Region": "Mainland China",
         "Last Update": "2020-03-06T12:53:03",
         "Confirmed": 75,
-        "Deaths": 0,
-        "Recovered": 71
+        "Deaths": "0",
+        "Recovered": "71"
       },
       "geometry": {
         "type": "Point",
@@ -980,8 +980,8 @@
         "Country/Region": "United Arab Emirates",
         "Last Update": "2020-03-10T11:13:12",
         "Confirmed": 74,
-        "Deaths": 0,
-        "Recovered": 12
+        "Deaths": "0",
+        "Recovered": "12"
       },
       "geometry": {
         "type": "Point",
@@ -998,8 +998,8 @@
         "Country/Region": "Iraq",
         "Last Update": "2020-03-10T05:13:07",
         "Confirmed": 71,
-        "Deaths": 7,
-        "Recovered": 3
+        "Deaths": "7",
+        "Recovered": "3"
       },
       "geometry": {
         "type": "Point",
@@ -1016,8 +1016,8 @@
         "Country/Region": "Iceland",
         "Last Update": "2020-03-10T12:53:02",
         "Confirmed": 69,
-        "Deaths": 0,
-        "Recovered": 1
+        "Deaths": "0",
+        "Recovered": "1"
       },
       "geometry": {
         "type": "Point",
@@ -1034,8 +1034,8 @@
         "Country/Region": "Kuwait",
         "Last Update": "2020-03-10T10:13:28",
         "Confirmed": 69,
-        "Deaths": 0,
-        "Recovered": 1
+        "Deaths": "0",
+        "Recovered": "1"
       },
       "geometry": {
         "type": "Point",
@@ -1052,8 +1052,8 @@
         "Country/Region": "Egypt",
         "Last Update": "2020-03-10T05:13:07",
         "Confirmed": 59,
-        "Deaths": 1,
-        "Recovered": 1
+        "Deaths": "1",
+        "Recovered": "1"
       },
       "geometry": {
         "type": "Point",
@@ -1070,8 +1070,8 @@
         "Country/Region": "Israel",
         "Last Update": "2020-03-10T12:53:02",
         "Confirmed": 58,
-        "Deaths": 0,
-        "Recovered": 4
+        "Deaths": "0",
+        "Recovered": "4"
       },
       "geometry": {
         "type": "Point",
@@ -1088,8 +1088,8 @@
         "Country/Region": "India",
         "Last Update": "2020-03-10T10:13:28",
         "Confirmed": 56,
-        "Deaths": 0,
-        "Recovered": 4
+        "Deaths": "0",
+        "Recovered": "4"
       },
       "geometry": {
         "type": "Point",
@@ -1106,8 +1106,8 @@
         "Country/Region": "Australia",
         "Last Update": "2020-03-10T14:13:14",
         "Confirmed": 55,
-        "Deaths": 2,
-        "Recovered": 4
+        "Deaths": "2",
+        "Recovered": "4"
       },
       "geometry": {
         "type": "Point",
@@ -1124,8 +1124,8 @@
         "Country/Region": "Thailand",
         "Last Update": "2020-03-10T08:53:03",
         "Confirmed": 53,
-        "Deaths": 1,
-        "Recovered": 33
+        "Deaths": "1",
+        "Recovered": "33"
       },
       "geometry": {
         "type": "Point",
@@ -1142,8 +1142,8 @@
         "Country/Region": "San Marino",
         "Last Update": "2020-03-10T05:13:07",
         "Confirmed": 51,
-        "Deaths": 2,
-        "Recovered": 0
+        "Deaths": "2",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -1160,8 +1160,8 @@
         "Country/Region": "Taipei and environs",
         "Last Update": "2020-03-10T19:13:15",
         "Confirmed": 47,
-        "Deaths": 1,
-        "Recovered": 17
+        "Deaths": "1",
+        "Recovered": "17"
       },
       "geometry": {
         "type": "Point",
@@ -1178,8 +1178,8 @@
         "Country/Region": "US",
         "Last Update": "2020-03-10T02:33:04",
         "Confirmed": 46,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -1196,8 +1196,8 @@
         "Country/Region": "Czech Republic",
         "Last Update": "2020-03-10T13:33:14",
         "Confirmed": 41,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -1214,8 +1214,8 @@
         "Country/Region": "Lebanon",
         "Last Update": "2020-03-10T10:53:03",
         "Confirmed": 41,
-        "Deaths": 1,
-        "Recovered": 1
+        "Deaths": "1",
+        "Recovered": "1"
       },
       "geometry": {
         "type": "Point",
@@ -1232,8 +1232,8 @@
         "Country/Region": "Portugal",
         "Last Update": "2020-03-10T12:53:02",
         "Confirmed": 41,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -1250,8 +1250,8 @@
         "Country/Region": "Finland",
         "Last Update": "2020-03-10T10:13:30",
         "Confirmed": 40,
-        "Deaths": 0,
-        "Recovered": 1
+        "Deaths": "0",
+        "Recovered": "1"
       },
       "geometry": {
         "type": "Point",
@@ -1268,8 +1268,8 @@
         "Country/Region": "Canada",
         "Last Update": "2020-03-10T17:13:32",
         "Confirmed": 36,
-        "Deaths": 0,
-        "Recovered": 4
+        "Deaths": "0",
+        "Recovered": "4"
       },
       "geometry": {
         "type": "Point",
@@ -1286,8 +1286,8 @@
         "Country/Region": "Ireland",
         "Last Update": "2020-03-10T19:13:21",
         "Confirmed": 34,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -1304,8 +1304,8 @@
         "Country/Region": "Philippines",
         "Last Update": "2020-03-10T10:13:30",
         "Confirmed": 33,
-        "Deaths": 1,
-        "Recovered": 2
+        "Deaths": "1",
+        "Recovered": "2"
       },
       "geometry": {
         "type": "Point",
@@ -1322,8 +1322,8 @@
         "Country/Region": "Canada",
         "Last Update": "2020-03-09T22:43:25",
         "Confirmed": 32,
-        "Deaths": 1,
-        "Recovered": 4
+        "Deaths": "1",
+        "Recovered": "4"
       },
       "geometry": {
         "type": "Point",
@@ -1340,8 +1340,8 @@
         "Country/Region": "Brazil",
         "Last Update": "2020-03-10T16:53:13",
         "Confirmed": 31,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -1358,8 +1358,8 @@
         "Country/Region": "Slovenia",
         "Last Update": "2020-03-10T16:13:26",
         "Confirmed": 31,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -1376,8 +1376,8 @@
         "Country/Region": "Viet Nam",
         "Last Update": "2020-03-10T19:13:21",
         "Confirmed": 31,
-        "Deaths": 0,
-        "Recovered": 16
+        "Deaths": "0",
+        "Recovered": "16"
       },
       "geometry": {
         "type": "Point",
@@ -1394,8 +1394,8 @@
         "Country/Region": "Indonesia",
         "Last Update": "2020-03-10T12:53:02",
         "Confirmed": 27,
-        "Deaths": 0,
-        "Recovered": 2
+        "Deaths": "0",
+        "Recovered": "2"
       },
       "geometry": {
         "type": "Point",
@@ -1412,8 +1412,8 @@
         "Country/Region": "Romania",
         "Last Update": "2020-03-10T16:33:13",
         "Confirmed": 25,
-        "Deaths": 0,
-        "Recovered": 3
+        "Deaths": "0",
+        "Recovered": "3"
       },
       "geometry": {
         "type": "Point",
@@ -1430,8 +1430,8 @@
         "Country/Region": "occupied Palestinian territory",
         "Last Update": "2020-03-10T19:13:21",
         "Confirmed": 25,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -1448,8 +1448,8 @@
         "Country/Region": "Qatar",
         "Last Update": "2020-03-10T16:13:26",
         "Confirmed": 24,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -1466,8 +1466,8 @@
         "Country/Region": "Poland",
         "Last Update": "2020-03-10T20:13:07",
         "Confirmed": 22,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -1484,8 +1484,8 @@
         "Country/Region": "US",
         "Last Update": "2020-03-10T02:33:04",
         "Confirmed": 21,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -1502,8 +1502,8 @@
         "Country/Region": "Algeria",
         "Last Update": "2020-03-09T10:13:06",
         "Confirmed": 20,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -1520,8 +1520,8 @@
         "Country/Region": "Saudi Arabia",
         "Last Update": "2020-03-10T05:13:07",
         "Confirmed": 20,
-        "Deaths": 0,
-        "Recovered": 1
+        "Deaths": "0",
+        "Recovered": "1"
       },
       "geometry": {
         "type": "Point",
@@ -1538,8 +1538,8 @@
         "Country/Region": "Australia",
         "Last Update": "2020-03-10T13:53:06",
         "Confirmed": 18,
-        "Deaths": 0,
-        "Recovered": 8
+        "Deaths": "0",
+        "Recovered": "8"
       },
       "geometry": {
         "type": "Point",
@@ -1556,8 +1556,8 @@
         "Country/Region": "Australia",
         "Last Update": "2020-03-10T14:33:13",
         "Confirmed": 18,
-        "Deaths": 0,
-        "Recovered": 7
+        "Deaths": "0",
+        "Recovered": "7"
       },
       "geometry": {
         "type": "Point",
@@ -1574,8 +1574,8 @@
         "Country/Region": "Mainland China",
         "Last Update": "2020-02-21T04:43:02",
         "Confirmed": 18,
-        "Deaths": 0,
-        "Recovered": 18
+        "Deaths": "0",
+        "Recovered": "18"
       },
       "geometry": {
         "type": "Point",
@@ -1592,8 +1592,8 @@
         "Country/Region": "Oman",
         "Last Update": "2020-03-10T08:33:02",
         "Confirmed": 18,
-        "Deaths": 0,
-        "Recovered": 9
+        "Deaths": "0",
+        "Recovered": "9"
       },
       "geometry": {
         "type": "Point",
@@ -1610,8 +1610,8 @@
         "Country/Region": "Argentina",
         "Last Update": "2020-03-10T05:13:07",
         "Confirmed": 17,
-        "Deaths": 1,
-        "Recovered": 0
+        "Deaths": "1",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -1628,8 +1628,8 @@
         "Country/Region": "US",
         "Last Update": "2020-03-10T03:53:03",
         "Confirmed": 17,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -1646,8 +1646,8 @@
         "Country/Region": "Pakistan",
         "Last Update": "2020-03-10T05:13:07",
         "Confirmed": 16,
-        "Deaths": 0,
-        "Recovered": 1
+        "Deaths": "0",
+        "Recovered": "1"
       },
       "geometry": {
         "type": "Point",
@@ -1664,8 +1664,8 @@
         "Country/Region": "Ecuador",
         "Last Update": "2020-03-09T09:03:03",
         "Confirmed": 15,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -1682,8 +1682,8 @@
         "Country/Region": "Georgia",
         "Last Update": "2020-03-09T10:13:06",
         "Confirmed": 15,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -1700,8 +1700,8 @@
         "Country/Region": "US",
         "Last Update": "2020-03-10T18:33:03",
         "Confirmed": 15,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -1718,8 +1718,8 @@
         "Country/Region": "US",
         "Last Update": "2020-03-10T13:13:14",
         "Confirmed": 15,
-        "Deaths": 2,
-        "Recovered": 0
+        "Deaths": "2",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -1736,8 +1736,8 @@
         "Country/Region": "US",
         "Last Update": "2020-03-10T18:13:16",
         "Confirmed": 15,
-        "Deaths": 1,
-        "Recovered": 0
+        "Deaths": "1",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -1754,8 +1754,8 @@
         "Country/Region": "US",
         "Last Update": "2020-03-10T19:53:13",
         "Confirmed": 15,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -1772,8 +1772,8 @@
         "Country/Region": "Croatia",
         "Last Update": "2020-03-10T16:53:13",
         "Confirmed": 14,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -1790,8 +1790,8 @@
         "Country/Region": "Chile",
         "Last Update": "2020-03-10T05:13:07",
         "Confirmed": 13,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -1808,8 +1808,8 @@
         "Country/Region": "US",
         "Last Update": "2020-03-10T04:13:13",
         "Confirmed": 13,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -1826,8 +1826,8 @@
         "Country/Region": "Estonia",
         "Last Update": "2020-03-10T11:13:13",
         "Confirmed": 12,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -1844,8 +1844,8 @@
         "Country/Region": "US",
         "Last Update": "2020-03-10T18:33:03",
         "Confirmed": 12,
-        "Deaths": 0,
-        "Recovered": 2
+        "Deaths": "0",
+        "Recovered": "2"
       },
       "geometry": {
         "type": "Point",
@@ -1862,8 +1862,8 @@
         "Country/Region": "US",
         "Last Update": "2020-03-10T18:13:16",
         "Confirmed": 12,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -1880,8 +1880,8 @@
         "Country/Region": "Azerbaijan",
         "Last Update": "2020-03-10T16:13:27",
         "Confirmed": 11,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -1898,8 +1898,8 @@
         "Country/Region": "Peru",
         "Last Update": "2020-03-10T16:33:13",
         "Confirmed": 11,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -1916,8 +1916,8 @@
         "Country/Region": "Albania",
         "Last Update": "2020-03-10T12:53:02",
         "Confirmed": 10,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -1934,8 +1934,8 @@
         "Country/Region": "Macao SAR",
         "Last Update": "2020-03-10T19:13:20",
         "Confirmed": 10,
-        "Deaths": 0,
-        "Recovered": 10
+        "Deaths": "0",
+        "Recovered": "10"
       },
       "geometry": {
         "type": "Point",
@@ -1952,8 +1952,8 @@
         "Country/Region": "Russian Federation",
         "Last Update": "2020-03-10T19:13:21",
         "Confirmed": 10,
-        "Deaths": 0,
-        "Recovered": 3
+        "Deaths": "0",
+        "Recovered": "3"
       },
       "geometry": {
         "type": "Point",
@@ -1970,8 +1970,8 @@
         "Country/Region": "Belarus",
         "Last Update": "2020-03-10T16:13:27",
         "Confirmed": 9,
-        "Deaths": 0,
-        "Recovered": 3
+        "Deaths": "0",
+        "Recovered": "3"
       },
       "geometry": {
         "type": "Point",
@@ -1988,8 +1988,8 @@
         "Country/Region": "Costa Rica",
         "Last Update": "2020-03-09T09:03:03",
         "Confirmed": 9,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -2006,8 +2006,8 @@
         "Country/Region": "Hungary",
         "Last Update": "2020-03-09T09:43:03",
         "Confirmed": 9,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -2024,8 +2024,8 @@
         "Country/Region": "Latvia",
         "Last Update": "2020-03-10T10:13:41",
         "Confirmed": 8,
-        "Deaths": 0,
-        "Recovered": 1
+        "Deaths": "0",
+        "Recovered": "1"
       },
       "geometry": {
         "type": "Point",
@@ -2042,8 +2042,8 @@
         "Country/Region": "US",
         "Last Update": "2020-03-10T02:33:04",
         "Confirmed": 8,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -2060,8 +2060,8 @@
         "Country/Region": "US",
         "Last Update": "2020-03-10T18:13:16",
         "Confirmed": 8,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -2078,8 +2078,8 @@
         "Country/Region": "Australia",
         "Last Update": "2020-03-06T04:23:08",
         "Confirmed": 7,
-        "Deaths": 0,
-        "Recovered": 2
+        "Deaths": "0",
+        "Recovered": "2"
       },
       "geometry": {
         "type": "Point",
@@ -2096,8 +2096,8 @@
         "Country/Region": "Canada",
         "Last Update": "2020-03-09T17:53:24",
         "Confirmed": 7,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -2114,8 +2114,8 @@
         "Country/Region": "Mexico",
         "Last Update": "2020-03-10T05:13:07",
         "Confirmed": 7,
-        "Deaths": 0,
-        "Recovered": 4
+        "Deaths": "0",
+        "Recovered": "4"
       },
       "geometry": {
         "type": "Point",
@@ -2132,8 +2132,8 @@
         "Country/Region": "North Macedonia",
         "Last Update": "2020-03-10T10:53:03",
         "Confirmed": 7,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -2150,8 +2150,8 @@
         "Country/Region": "Slovakia",
         "Last Update": "2020-03-10T05:13:07",
         "Confirmed": 7,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -2168,8 +2168,8 @@
         "Country/Region": "South Africa",
         "Last Update": "2020-03-10T05:13:07",
         "Confirmed": 7,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -2186,8 +2186,8 @@
         "Country/Region": "US",
         "Last Update": "2020-03-10T02:33:04",
         "Confirmed": 7,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -2204,8 +2204,8 @@
         "Country/Region": "US",
         "Last Update": "2020-03-10T02:33:04",
         "Confirmed": 7,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -2222,8 +2222,8 @@
         "Country/Region": "US",
         "Last Update": "2020-03-10T19:53:13",
         "Confirmed": 7,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -2240,8 +2240,8 @@
         "Country/Region": "US",
         "Last Update": "2020-03-10T03:53:03",
         "Confirmed": 7,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -2258,8 +2258,8 @@
         "Country/Region": "Australia",
         "Last Update": "2020-03-10T14:33:13",
         "Confirmed": 6,
-        "Deaths": 1,
-        "Recovered": 0
+        "Deaths": "1",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -2276,8 +2276,8 @@
         "Country/Region": "Maldives",
         "Last Update": "2020-03-10T05:13:07",
         "Confirmed": 6,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -2294,8 +2294,8 @@
         "Country/Region": "US",
         "Last Update": "2020-03-10T02:53:04",
         "Confirmed": 6,
-        "Deaths": 0,
-        "Recovered": 1
+        "Deaths": "0",
+        "Recovered": "1"
       },
       "geometry": {
         "type": "Point",
@@ -2312,8 +2312,8 @@
         "Country/Region": "US",
         "Last Update": "2020-03-10T17:13:25",
         "Confirmed": 6,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -2330,8 +2330,8 @@
         "Country/Region": "US",
         "Last Update": "2020-03-10T02:33:04",
         "Confirmed": 6,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -2348,8 +2348,8 @@
         "Country/Region": "Afghanistan",
         "Last Update": "2020-03-10T12:33:02",
         "Confirmed": 5,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -2366,8 +2366,8 @@
         "Country/Region": "Bosnia and Herzegovina",
         "Last Update": "2020-03-10T05:13:07",
         "Confirmed": 5,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -2384,8 +2384,8 @@
         "Country/Region": "Dominican Republic",
         "Last Update": "2020-03-08T17:23:08",
         "Confirmed": 5,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -2402,8 +2402,8 @@
         "Country/Region": "French Guiana",
         "Last Update": "2020-03-07T03:23:05",
         "Confirmed": 5,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -2420,8 +2420,8 @@
         "Country/Region": "Luxembourg",
         "Last Update": "2020-03-10T05:13:07",
         "Confirmed": 5,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -2438,8 +2438,8 @@
         "Country/Region": "Malta",
         "Last Update": "2020-03-10T16:33:13",
         "Confirmed": 5,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -2456,8 +2456,8 @@
         "Country/Region": "New Zealand",
         "Last Update": "2020-03-07T02:03:29",
         "Confirmed": 5,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -2474,8 +2474,8 @@
         "Country/Region": "Serbia",
         "Last Update": "2020-03-10T18:53:03",
         "Confirmed": 5,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -2492,8 +2492,8 @@
         "Country/Region": "Tunisia",
         "Last Update": "2020-03-10T05:13:07",
         "Confirmed": 5,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -2510,8 +2510,8 @@
         "Country/Region": "US",
         "Last Update": "2020-03-10T03:53:03",
         "Confirmed": 5,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -2528,8 +2528,8 @@
         "Country/Region": "Bulgaria",
         "Last Update": "2020-03-09T14:43:03",
         "Confirmed": 4,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -2546,8 +2546,8 @@
         "Country/Region": "Canada",
         "Last Update": "2020-03-10T00:53:03",
         "Confirmed": 4,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -2564,8 +2564,8 @@
         "Country/Region": "Senegal",
         "Last Update": "2020-03-08T20:23:08",
         "Confirmed": 4,
-        "Deaths": 0,
-        "Recovered": 1
+        "Deaths": "0",
+        "Recovered": "1"
       },
       "geometry": {
         "type": "Point",
@@ -2582,8 +2582,8 @@
         "Country/Region": "US",
         "Last Update": "2020-03-10T02:33:04",
         "Confirmed": 4,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -2600,8 +2600,8 @@
         "Country/Region": "US",
         "Last Update": "2020-03-10T02:33:04",
         "Confirmed": 4,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -2618,8 +2618,8 @@
         "Country/Region": "Bangladesh",
         "Last Update": "2020-03-10T06:19:32",
         "Confirmed": 3,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -2636,8 +2636,8 @@
         "Country/Region": "Colombia",
         "Last Update": "2020-03-10T05:33:02",
         "Confirmed": 3,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -2654,8 +2654,8 @@
         "Country/Region": "Cyprus",
         "Last Update": "2020-03-10T13:13:13",
         "Confirmed": 3,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -2672,8 +2672,8 @@
         "Country/Region": "Morocco",
         "Last Update": "2020-03-10T14:13:14",
         "Confirmed": 3,
-        "Deaths": 1,
-        "Recovered": 0
+        "Deaths": "1",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -2690,8 +2690,8 @@
         "Country/Region": "Republic of Moldova",
         "Last Update": "2020-03-10T19:13:21",
         "Confirmed": 3,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -2708,8 +2708,8 @@
         "Country/Region": "US",
         "Last Update": "2020-03-10T19:53:13",
         "Confirmed": 3,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -2726,8 +2726,8 @@
         "Country/Region": "US",
         "Last Update": "2020-03-10T03:13:17",
         "Confirmed": 3,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -2744,8 +2744,8 @@
         "Country/Region": "US",
         "Last Update": "2020-03-10T03:13:17",
         "Confirmed": 3,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -2762,8 +2762,8 @@
         "Country/Region": "US",
         "Last Update": "2020-03-10T03:13:17",
         "Confirmed": 3,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -2780,8 +2780,8 @@
         "Country/Region": "US",
         "Last Update": "2020-03-10T17:13:25",
         "Confirmed": 3,
-        "Deaths": 0,
-        "Recovered": 1
+        "Deaths": "0",
+        "Recovered": "1"
       },
       "geometry": {
         "type": "Point",
@@ -2798,8 +2798,8 @@
         "Country/Region": "Australia",
         "Last Update": "2020-03-08T05:43:04",
         "Confirmed": 2,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -2816,8 +2816,8 @@
         "Country/Region": "Cambodia",
         "Last Update": "2020-03-08T04:53:03",
         "Confirmed": 2,
-        "Deaths": 0,
-        "Recovered": 1
+        "Deaths": "0",
+        "Recovered": "1"
       },
       "geometry": {
         "type": "Point",
@@ -2834,8 +2834,8 @@
         "Country/Region": "Cameroon",
         "Last Update": "2020-03-08T05:23:03",
         "Confirmed": 2,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -2852,8 +2852,8 @@
         "Country/Region": "Faroe Islands",
         "Last Update": "2020-03-08T05:13:07",
         "Confirmed": 2,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -2870,8 +2870,8 @@
         "Country/Region": "Martinique",
         "Last Update": "2020-03-07T03:23:05",
         "Confirmed": 2,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -2888,8 +2888,8 @@
         "Country/Region": "Nigeria",
         "Last Update": "2020-03-09T09:43:03",
         "Confirmed": 2,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -2906,8 +2906,8 @@
         "Country/Region": "Saint Martin",
         "Last Update": "2020-03-10T05:33:02",
         "Confirmed": 2,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -2924,8 +2924,8 @@
         "Country/Region": "US",
         "Last Update": "2020-03-10T03:13:17",
         "Confirmed": 2,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -2942,8 +2942,8 @@
         "Country/Region": "US",
         "Last Update": "2020-03-10T03:13:17",
         "Confirmed": 2,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -2960,8 +2960,8 @@
         "Country/Region": "US",
         "Last Update": "2020-03-10T17:13:25",
         "Confirmed": 2,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -2978,8 +2978,8 @@
         "Country/Region": "US",
         "Last Update": "2020-03-10T16:53:13",
         "Confirmed": 2,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -2996,8 +2996,8 @@
         "Country/Region": "Andorra",
         "Last Update": "2020-03-02T20:23:16",
         "Confirmed": 1,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -3014,8 +3014,8 @@
         "Country/Region": "Armenia",
         "Last Update": "2020-03-01T19:53:02",
         "Confirmed": 1,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -3032,8 +3032,8 @@
         "Country/Region": "Australia",
         "Last Update": "2020-03-10T14:13:14",
         "Confirmed": 1,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -3050,8 +3050,8 @@
         "Country/Region": "Bhutan",
         "Last Update": "2020-03-06T15:43:02",
         "Confirmed": 1,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -3068,8 +3068,8 @@
         "Country/Region": "Brunei",
         "Last Update": "2020-03-10T06:13:43",
         "Confirmed": 1,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -3086,8 +3086,8 @@
         "Country/Region": "Burkina Faso",
         "Last Update": "2020-03-10T05:33:02",
         "Confirmed": 1,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -3104,8 +3104,8 @@
         "Country/Region": "Channel Islands",
         "Last Update": "2020-03-10T05:33:02",
         "Confirmed": 1,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -3122,8 +3122,8 @@
         "Country/Region": "Gibraltar",
         "Last Update": "2020-03-10T08:33:03",
         "Confirmed": 1,
-        "Deaths": 0,
-        "Recovered": 1
+        "Deaths": "0",
+        "Recovered": "1"
       },
       "geometry": {
         "type": "Point",
@@ -3140,8 +3140,8 @@
         "Country/Region": "Holy See",
         "Last Update": "2020-03-10T19:13:21",
         "Confirmed": 1,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -3158,8 +3158,8 @@
         "Country/Region": "Jordan",
         "Last Update": "2020-03-03T15:33:02",
         "Confirmed": 1,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -3176,8 +3176,8 @@
         "Country/Region": "Liechtenstein",
         "Last Update": "2020-03-04T01:33:07",
         "Confirmed": 1,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -3194,8 +3194,8 @@
         "Country/Region": "Lithuania",
         "Last Update": "2020-02-28T16:23:03",
         "Confirmed": 1,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -3212,8 +3212,8 @@
         "Country/Region": "Mainland China",
         "Last Update": "2020-02-12T06:43:02",
         "Confirmed": 1,
-        "Deaths": 0,
-        "Recovered": 1
+        "Deaths": "0",
+        "Recovered": "1"
       },
       "geometry": {
         "type": "Point",
@@ -3230,8 +3230,8 @@
         "Country/Region": "Monaco",
         "Last Update": "2020-02-29T00:33:01",
         "Confirmed": 1,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -3248,8 +3248,8 @@
         "Country/Region": "Mongolia",
         "Last Update": "2020-03-10T06:13:43",
         "Confirmed": 1,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -3266,8 +3266,8 @@
         "Country/Region": "Nepal",
         "Last Update": "2020-03-10T08:33:03",
         "Confirmed": 1,
-        "Deaths": 0,
-        "Recovered": 1
+        "Deaths": "0",
+        "Recovered": "1"
       },
       "geometry": {
         "type": "Point",
@@ -3284,8 +3284,8 @@
         "Country/Region": "Panama",
         "Last Update": "2020-03-10T06:13:43",
         "Confirmed": 1,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -3302,8 +3302,8 @@
         "Country/Region": "Paraguay",
         "Last Update": "2020-03-08T09:13:16",
         "Confirmed": 1,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -3320,8 +3320,8 @@
         "Country/Region": "Saint Barthelemy",
         "Last Update": "2020-03-09T10:43:06",
         "Confirmed": 1,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -3338,8 +3338,8 @@
         "Country/Region": "Sri Lanka",
         "Last Update": "2020-03-10T08:33:03",
         "Confirmed": 1,
-        "Deaths": 0,
-        "Recovered": 1
+        "Deaths": "0",
+        "Recovered": "1"
       },
       "geometry": {
         "type": "Point",
@@ -3356,8 +3356,8 @@
         "Country/Region": "Togo",
         "Last Update": "2020-03-07T02:13:09",
         "Confirmed": 1,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -3374,8 +3374,8 @@
         "Country/Region": "US",
         "Last Update": "2020-03-10T03:13:17",
         "Confirmed": 1,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -3392,8 +3392,8 @@
         "Country/Region": "US",
         "Last Update": "2020-03-10T03:13:17",
         "Confirmed": 1,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -3410,8 +3410,8 @@
         "Country/Region": "US",
         "Last Update": "2020-03-10T03:13:17",
         "Confirmed": 1,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -3428,8 +3428,8 @@
         "Country/Region": "US",
         "Last Update": "2020-03-10T03:13:17",
         "Confirmed": 1,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -3446,8 +3446,8 @@
         "Country/Region": "Ukraine",
         "Last Update": "2020-03-03T15:33:02",
         "Confirmed": 1,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -3464,8 +3464,8 @@
         "Country/Region": "Australia",
         "Last Update": "2020-02-29T02:03:10",
         "Confirmed": 0,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -3482,8 +3482,8 @@
         "Country/Region": "US",
         "Last Update": "2020-03-10T02:33:04",
         "Confirmed": 0,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -3500,8 +3500,8 @@
         "Country/Region": "US",
         "Last Update": "2020-03-10T02:33:04",
         "Confirmed": 0,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -3518,8 +3518,8 @@
         "Country/Region": "US",
         "Last Update": "2020-03-10T02:33:04",
         "Confirmed": 0,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -3536,8 +3536,8 @@
         "Country/Region": "US",
         "Last Update": "2020-03-10T02:33:04",
         "Confirmed": 0,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -3554,8 +3554,8 @@
         "Country/Region": "US",
         "Last Update": "2020-03-10T02:33:04",
         "Confirmed": 0,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -3572,8 +3572,8 @@
         "Country/Region": "US",
         "Last Update": "2020-03-10T02:33:04",
         "Confirmed": 0,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -3590,8 +3590,8 @@
         "Country/Region": "US",
         "Last Update": "2020-03-10T02:33:04",
         "Confirmed": 0,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -3608,8 +3608,8 @@
         "Country/Region": "US",
         "Last Update": "2020-03-10T02:33:04",
         "Confirmed": 0,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -3626,8 +3626,8 @@
         "Country/Region": "US",
         "Last Update": "2020-03-10T02:33:04",
         "Confirmed": 0,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -3644,8 +3644,8 @@
         "Country/Region": "US",
         "Last Update": "2020-03-10T02:33:04",
         "Confirmed": 0,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -3662,8 +3662,8 @@
         "Country/Region": "US",
         "Last Update": "2020-03-10T02:33:04",
         "Confirmed": 0,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -3680,8 +3680,8 @@
         "Country/Region": "US",
         "Last Update": "2020-03-10T02:33:04",
         "Confirmed": 0,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
@@ -3698,8 +3698,8 @@
         "Country/Region": "US",
         "Last Update": "2020-03-10T02:33:04",
         "Confirmed": 0,
-        "Deaths": 0,
-        "Recovered": 0
+        "Deaths": "0",
+        "Recovered": "0"
       },
       "geometry": {
         "type": "Point",
