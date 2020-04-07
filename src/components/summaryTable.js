@@ -15,7 +15,6 @@ class SummaryTable extends React.Component {
     handleSearch = (event) => {
         event.preventDefault()
         var text = event.target.value
-        console.log(text)
         if(text) {
             var tmpData = this.props.data //because we don't wanna dirty things up in transit
 
@@ -33,6 +32,14 @@ class SummaryTable extends React.Component {
         }
     }
 
+    handlePress = (event) => {
+        if (event.keyCode == 13) { //for mobile if "ENTER" buton pressed
+        console.log('asdf')
+            event.preventDefault()
+            event.target.blur()
+        }
+    }
+
     render() {
         //react-data-table-component relies on document which we'll skip during server side rendering on build
         if(typeof document === `undefined`) {
@@ -43,9 +50,9 @@ class SummaryTable extends React.Component {
 
         return (
             <div className="mx-8">
-                <h1 className="underline text-center text-2xl">{this.props.title}</h1>
+                <h1 className="underline text-center text-md sm:text-2xl mb-1">{this.props.title}</h1>
                 <div className="w-full text-right">
-                    <input className="shadow appearance-none border rounded w-full sm:w-3/12 py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" type="text" onChange={this.handleSearch} value={this.state.filterText} placeholder="Search by Country"/>
+                    <input className="shadow appearance-none border rounded w-full sm:w-3/12 py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" type="search" onChange={this.handleSearch} onKeyDown={this.handlePress} value={this.state.filterText} placeholder="Search by Country"/>
                 </div>
                 <DataTable
                 noHeader={true}

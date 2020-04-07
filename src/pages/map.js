@@ -9,10 +9,7 @@ import SEO from "../components/seo"
 
 mapboxgl.accessToken = 'pk.eyJ1IjoiZG10bWFwcyIsImEiOiJjazhpOXczZXowM3l3M2dtMXdvbmVuejJqIn0.7qF25W9xmSvQp2GVsXNJKA'; 
 
-// const today = moment().add(-1, 'days');
-
-//TODO: set to april 1st for now... make this dynamic later
-const today = moment().add(-2, 'days');
+const today = moment().add(-1, 'days');
 
 class MapPage extends React.Component {
 
