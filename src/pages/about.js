@@ -52,7 +52,7 @@ const AboutPage = () => (
                 </tbody>
                 </table>
             </div>
-            <p className="mb-4">All data used on this website are for academic purposes only. I do not benefit monetarily from the use of any of this data. Data aggreagatd and correlated may exhibit inconsistencies and potential inaccuracies. COVID-19 data is still scarce as many states, provinces, and countries either 1) do not have the systems in place to collect data or 2) have not done the due diligence to test and collect data appropriately.</p>
+            <p className="mb-4">All data used on this website are for academic purposes only. I do not benefit monetarily from the use of any of this data. Data aggreagatd and correlated may exhibit inconsistencies and potential inaccuracies. COVID-19 data is still scarce as many states, provinces, and countries either 1) do not have the systems in place to collect data or 2) have not done the due diligence to test and collect data appropriately. Also, realize some countries most likely are under-reporting because it is an embarassing topic for them.</p>
         </div>
     </Layout>
 )
