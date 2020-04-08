@@ -22,7 +22,7 @@ const GlobalDataConfiguration = {
       sortable: true,
     },
     {
-      name: "Growth Rate",
+      name: "Daily Growth Rate",
       selector: "growthRate",
       sortable: true,
       format: row => `${(row.growthRate * 100).toFixed(2) + " %"}`,

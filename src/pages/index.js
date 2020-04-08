@@ -41,7 +41,7 @@ const IndexPage = () => (
 
             <h1 className="mx-auto underline text-md sm:text-2xl">Global Summary</h1>
             <p className="mx-auto text-gray-500 sm:text-sm text-xs">Data on {todaysData.date}. Updated daily</p>
-            <table className="text-sm sm:text-base table-auto mx-auto md:mx-8 mb-1">
+            <table className="text-sm sm:text-base table-auto mx-auto md:mx-32 mb-1">
               <thead>
                 <tr>
                   <th className="border px-4 py-2">Confirmed</th>
