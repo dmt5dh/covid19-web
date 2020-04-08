@@ -9,7 +9,7 @@ import SEO from "../components/seo"
 
 mapboxgl.accessToken = 'pk.eyJ1IjoiZG10bWFwcyIsImEiOiJjazhpOXczZXowM3l3M2dtMXdvbmVuejJqIn0.7qF25W9xmSvQp2GVsXNJKA'; 
 
-const today = moment().add(-1, 'days');
+const today = moment()
 
 class MapPage extends React.Component {
 
