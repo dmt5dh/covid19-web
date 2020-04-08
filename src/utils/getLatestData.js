@@ -1,6 +1,4 @@
 const fs = require('fs');
-const fetch = require("node-fetch");
-const stream = require("stream");
 const moment = require("moment");
 const axios = require('axios');
 const csv2geojson = require('csv2geojson');
