@@ -9,7 +9,7 @@ jobs:
       - checkout
       - run:
           name: Get latest data
-          command: node ./gatsby-site/src/utils/getLatestData.js
+          command: node ./src/utils/getLatestData.js
       - restore_cache:
           keys:
             # Find a cache corresponding to this specific package-lock.json
@@ -34,7 +34,6 @@ workflows:
   commit-workflow:
     jobs:
       - build
-      - deploy
   schedule-workflow:
     triggers:
       - schedule:
@@ -45,4 +44,3 @@ workflows:
                 - master
     jobs:
       - build
-      - deploy
