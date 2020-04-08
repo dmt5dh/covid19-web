@@ -26,9 +26,6 @@ jobs:
       - run:
           name: Gatsby Build
           command: npm run build
-      - store_artifacts:
-          path: ./static/data/daily_summary/geojson
-          destination: artifact-file
       - run:
           name: Firebase Deploy
           command: ./node_modules/.bin/firebase deploy --token "$FIREBASE_TOKEN"
