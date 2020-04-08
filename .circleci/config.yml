@@ -7,6 +7,9 @@ jobs:
     working_directory: ~/gatsby-site
     steps:
       - checkout
+      - run:
+          name: Get latest data
+          command: node ./gatsby-site/src/utils/getLatestData.js
       - restore_cache:
           keys:
             # Find a cache corresponding to this specific package-lock.json
