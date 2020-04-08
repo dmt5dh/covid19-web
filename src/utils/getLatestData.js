@@ -30,12 +30,11 @@ const convertToGeojson = async (data) => {
 
 getData = async () => {
     var date = start;
-    console.log(steps)
     for(var i = 0; i < steps; i++) {
         var dateParam = date.format("MM-DD-YYYY");
         var csv = await downloadCsv(dateParam);
         var geoJson = await convertToGeojson(csv);
-        fs.writeFileSync(`static/data/daily_summary/geojson/${dateParam}.geojson`, JSON.stringify(geoJson,null,2));
+        fs.writeFileSync(`./static/data/daily_summary/geojson/${dateParam}.geojson`, JSON.stringify(geoJson,null,2));
         date = date.add('1', 'days');
     }
 
