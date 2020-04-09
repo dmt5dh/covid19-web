@@ -97,7 +97,7 @@ class StatisticsPage extends React.Component {
                                         </tr>
                                     </tbody>
                                 </table>
-                                <StatsLineChart data={this.state.data} />
+                                <StatsLineChart data={this.state.data} minHeight={475} width={"100%"} />
                             </div>
                         }
                     </div>

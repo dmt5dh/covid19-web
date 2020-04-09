@@ -50,8 +50,8 @@ class SummaryTable extends React.Component {
 
         return (
             <div className="md:mx-32 mx-8">
-                <h1 className="underline text-center text-md sm:text-2xl mb-1">{this.props.title}</h1>
-                <div className="w-full text-right">
+                <div className="w-full flex justify-between">
+                <h1 className="underline text-md sm:text-2xl mb-1">{this.props.title}</h1>
                     <input className="shadow appearance-none border rounded w-full sm:w-3/12 py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" type="search" onChange={this.handleSearch} onKeyDown={this.handlePress} value={this.state.filterText} placeholder="Search by Country"/>
                 </div>
                 <DataTable

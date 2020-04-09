@@ -3,11 +3,12 @@ import { graphql, StaticQuery } from "gatsby"
 
 import Layout from "../components/layout"
 
-import { getTotalSummary, getTodaysData } from "../utils/global/global"
+import { getTotalSummary, getTodaysData, getTotalDataOverTime } from "../utils/global/global"
 
 import GlobalDataConfiguration from "../utils/global/globalConfiguration"
 import SummaryTable from "../components/summaryTable"
 import SEO from "../components/seo"
+import StatsLineChart from "../components/statsLineChart"
 
 const IndexPage = () => (
   <Layout>
@@ -36,12 +37,14 @@ const IndexPage = () => (
 
         var todaysData = getTodaysData(data.global.results)
         var aggregateData = getTotalSummary(todaysData.results)
+        var timeData = getTotalDataOverTime(data.global.results)
+
         return (
           <>
 
-            <h1 className="mx-auto underline text-md sm:text-2xl">Global Summary</h1>
+            <h1 className="mx-auto underline text-md sm:text-2xl">Global Statistics</h1>
             <p className="mx-auto text-gray-500 sm:text-sm text-xs">Data on {todaysData.date}. Updated daily</p>
-            <table className="text-sm sm:text-base table-auto mx-auto md:mx-32 mb-1">
+            <table className="text-sm sm:text-base table-auto mx-auto md:mx-32 mb-4">
               <thead>
                 <tr>
                   <th className="border px-4 py-2">Confirmed</th>
@@ -63,6 +66,10 @@ const IndexPage = () => (
                 </tr>
               </tbody>
             </table>
+
+            <div className="w-full my-6">
+              <StatsLineChart data={timeData} minHeight={300} width="100%"/>
+            </div>
 
             <SummaryTable
               data={todaysData.results}

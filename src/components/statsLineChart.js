@@ -70,28 +70,28 @@ class StatsLineChart extends React.Component {
     render() {
         return (
             <div className="mx-auto w-full sm:w-5/6">
-                <ResponsiveContainer width={'100%'} minHeight={475}>
+                <ResponsiveContainer width={this.props.width} minHeight={this.props.minHeight}>
                     <LineChart data={this.state.data}>
 
                         {!this.state.confirmed.hide &&
                         <Line type="monotone" dataKey="confirmed" stroke={this.state.confirmed.color} dot={false} yAxisId="confirmed" hide={this.state.confirmed.hide}/>
                         }
                         {!this.state.confirmed.hide &&
-                        <YAxis yAxisId="confirmed" axisLine={false} tickLine={false} stroke={this.state.confirmed.color}/>
+                        <YAxis yAxisId="confirmed" axisLine={false} tickLine={false} stroke={this.state.confirmed.color} tickFormatter={item => item.toLocaleString("en")}/>
                         }
 
                         {!this.state.deaths.hide &&
                         <Line type="monotone" dataKey="deaths" stroke={this.state.deaths.color} dot={false} yAxisId="deaths" hide={this.state.deaths.hide}/>
                         }
                         {!this.state.deaths.hide &&
-                        <YAxis yAxisId="deaths" axisLine={false} tickLine={false} stroke={this.state.deaths.color} orientation="right"/>
+                        <YAxis yAxisId="deaths" axisLine={false} tickLine={false} stroke={this.state.deaths.color} orientation="right" tickFormatter={item => item.toLocaleString("en")}/>
                         }
 
                         {!this.state.recovered.hide &&
                         <Line type="monotone" dataKey="recovered" stroke={this.state.recovered.color} dot={false} yAxisId="recovered" hide={this.state.recovered.hide}/>
                         }
                         {!this.state.recovered.hide &&
-                        <YAxis yAxisId="recovered" axisLine={false} tickLine={false} stroke={this.state.recovered.color} orientation="right"/>
+                        <YAxis yAxisId="recovered" axisLine={false} tickLine={false} stroke={this.state.recovered.color} orientation="right" tickFormatter={item => item.toLocaleString("en")}/>
                         }
 
                         {/* <CartesianGrid strokeDasharray="5 5" /> */}
