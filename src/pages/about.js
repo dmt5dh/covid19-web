@@ -11,7 +11,7 @@ const AboutPage = () => (
         Many thanks for those that have put time and effort to collect,
         correlate, and aggregate data used on this website. Without you the
         fight against COVID-19 would be even more difficult. Data used on this
-        page has been gratiously collected and distributed by the following:
+        page has been graciously collected and distributed by the following:
       </p>
       <div className=" mx-auto my-8 md:mx-20">
         <table className="table-auto mx-auto md:mx-8 mb-10">
@@ -22,19 +22,6 @@ const AboutPage = () => (
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td className="border px-4 py-2 text-center">
-                <a
-                  className="text-blue-600 hover:underline"
-                  href="https://github.com/CSSEGISandData/COVID-19"
-                >
-                  JHU CSSE
-                </a>
-              </td>
-              <td className="border px-4 py-2 text-center">
-                Contains data sourced from over a dozen data holdings
-              </td>
-            </tr>
             <tr>
               <td className="border px-4 py-2 text-center">
                 <a
@@ -93,8 +80,7 @@ const AboutPage = () => (
         COVID-19 data is still scarce as many states, provinces, and countries
         either 1) do not have the systems in place to collect data or 2) have
         not done the due diligence to test and collect data appropriately. Also,
-        realize some countries most likely are under-reporting because it is an
-        embarassing topic for them.
+         some countries most likely under report because of potential international embarassment.
       </p>
     </div>
   </Layout>
