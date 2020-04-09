@@ -4,7 +4,7 @@ const axios = require('axios');
 const csv2geojson = require('csv2geojson');
 
 //This is when i started the auto builds
-const start = moment([2020, 3, 6])
+const start = moment([2020, 3, 8])
 const today = moment()
 const steps = today.diff(start, 'days')
 const endpoint = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/';
