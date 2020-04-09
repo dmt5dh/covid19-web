@@ -9,7 +9,7 @@ const Header = ({ siteTitle }) => (
         to="/"
         className="md:text-base text-sm text-white hover:text-gray-300 mr-10"
       >
-        Global
+        Summary
       </Link>
       <Link
         to="/map"
