@@ -7,7 +7,7 @@ import StatsLineChart from "../components/statsLineChart"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const today = moment().format("LLL")
+const today = moment().add('-1', 'days').format("LLL")
 const StatisticsPage = (props) => {
     const query = gql`
       query($country: String) {
