@@ -45,7 +45,7 @@ const IndexPage = () => (
 
         return (
           <>
-            <h1 className="mx-auto underline text-md sm:text-2xl">
+            <h1 className="mx-auto underline text-md sm:text-xl">
               Global Statistics
             </h1>
             <p className="mx-auto text-gray-500 sm:text-sm text-xs">

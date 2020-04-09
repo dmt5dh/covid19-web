@@ -39,7 +39,7 @@ const StatisticsPage = (props) => {
             //   {JSON.stringify(data)}
             // </div>
                 <div className="flex flex-col">
-              <h1 className="mx-auto text-2xl underline mb-2">
+              <h1 className="mx-auto text-xl underline mb-2">
                 Country data for {decodeURI(props.location.search.split("=")[1])}
               </h1>
               <p className="mx-auto text-gray-500 sm:text-sm text-xs">
