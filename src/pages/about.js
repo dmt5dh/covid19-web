@@ -79,8 +79,7 @@ const AboutPage = () => (
         correlated may exhibit inconsistencies and potential inaccuracies.
         COVID-19 data is still scarce as many states, provinces, and countries
         either 1) do not have the systems in place to collect data or 2) have
-        not done the due diligence to test and collect data appropriately. Also,
-         some countries most likely under report because of potential international embarassment.
+        not done the due diligence to test and collect data appropriately. Also, some countries most likely under report because of potential international embarassment.
       </p>
     </div>
   </Layout>
