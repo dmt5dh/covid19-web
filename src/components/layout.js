@@ -26,7 +26,10 @@ const Layout = ({ children }) => {
   return (
     <>
       <head>
-        <link href='https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.css' rel='stylesheet' />
+        <link
+          href="https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.css"
+          rel="stylesheet"
+        />
       </head>
       <Header siteTitle={data.site.siteMetadata.title} />
       <div className="flex flex-col mx-8 mt-8 min-h-full">{children}</div>

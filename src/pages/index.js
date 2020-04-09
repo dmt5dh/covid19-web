@@ -3,7 +3,11 @@ import { graphql, StaticQuery } from "gatsby"
 
 import Layout from "../components/layout"
 
-import { getTotalSummary, getTodaysData, getTotalDataOverTime } from "../utils/global/global"
+import {
+  getTotalSummary,
+  getTodaysData,
+  getTotalDataOverTime,
+} from "../utils/global/global"
 
 import GlobalDataConfiguration from "../utils/global/globalConfiguration"
 import SummaryTable from "../components/summaryTable"
@@ -41,9 +45,12 @@ const IndexPage = () => (
 
         return (
           <>
-
-            <h1 className="mx-auto underline text-md sm:text-2xl">Global Statistics</h1>
-            <p className="mx-auto text-gray-500 sm:text-sm text-xs">Data on {todaysData.date}. Updated daily</p>
+            <h1 className="mx-auto underline text-md sm:text-2xl">
+              Global Statistics
+            </h1>
+            <p className="mx-auto text-gray-500 sm:text-sm text-xs">
+              Data on {todaysData.date}. Updated daily
+            </p>
             <table className="text-sm sm:text-base table-auto mx-auto md:mx-32 mb-4">
               <thead>
                 <tr>
@@ -68,7 +75,7 @@ const IndexPage = () => (
             </table>
 
             <div className="w-full my-6">
-              <StatsLineChart data={timeData} minHeight={300} width="100%"/>
+              <StatsLineChart data={timeData} minHeight={300} width="100%" />
             </div>
 
             <SummaryTable

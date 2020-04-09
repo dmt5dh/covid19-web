@@ -31,7 +31,7 @@ module.exports = {
         url: "https://covid19-graphql.now.sh/",
       },
     },
-    
+
     //TODO: Bring back whenever USA data back online
     // {
     //   resolve: "gatsby-source-graphql",
