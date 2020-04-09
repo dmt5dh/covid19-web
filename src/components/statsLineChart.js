@@ -70,7 +70,7 @@ class StatsLineChart extends React.Component {
     render() {
         return (
             <div className="mx-auto w-full sm:w-5/6">
-                <ResponsiveContainer width={'100%'} minHeight={400}>
+                <ResponsiveContainer width={'100%'} minHeight={475}>
                     <LineChart data={this.state.data}>
 
                         {!this.state.confirmed.hide &&

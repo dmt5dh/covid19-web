@@ -18,20 +18,8 @@ const client = new ApolloClient({
     uri: 'https://covid19-graphql.now.sh/',
 });
 
-const query = gql`query {
-    country(name: "US") {
-      name
-      results {
-        date
-        confirmed
-        deaths
-        recovered
-        growthRate
-      }
-    }
-  }`
-
-const today = moment().format("")
+const today = moment().add(-1, 'days').format("LLL")
+var query;
 class StatisticsPage extends React.Component {
 
     constructor(props) {
@@ -41,11 +29,29 @@ class StatisticsPage extends React.Component {
             data: {},
             loading: true
         }
+
+        console.log(this.props.location.search.split("=")[1])
+
+        query = gql`query ($country: String) {
+            country(name: $country) {
+              name
+              results {
+                date
+                confirmed
+                deaths
+                recovered
+                growthRate
+              }
+            }
+          }`
     }
 
     componentDidMount() {
         client.query({
-            query: query
+            query: query,
+            variables: {
+                    country: decodeURI(this.props.location.search.split("=")[1])
+                }
         }).then(response => {
             this.setState({
                 countryName: response.data.country.name,
@@ -62,10 +68,13 @@ class StatisticsPage extends React.Component {
                 <SEO title="Country Statistics" />
                     <div>
                         {this.state.loading? 
-                            <div>Retrieving Data...</div> :
+                            <div className="text-center">
+                                <h1 className="text-4xl">Retrieving Data...</h1>
+                            </div> :
 
                             <div className="flex flex-col">
                                 <h1 className="mx-auto text-2xl underline mb-2">Country data for {this.state.countryName}</h1>
+                                <p className="mx-auto text-gray-500 sm:text-sm text-xs">Data on {today}. Updated daily</p>
                                 <table className="mx-auto text-sm sm:text-base table-auto mx-auto md:mx-32 mb-2">
                                     <thead>
                                         <tr>
