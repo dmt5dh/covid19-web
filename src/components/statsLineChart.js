@@ -11,28 +11,28 @@ class StatsLineChart extends React.Component {
             data: this.props.data,
             confirmed: {
                 hide: false,
-                color: "#8884d8"
+                color: "#E3AD25"
             },
             deaths: {
                 hide: false,
-                color: "#912710"
+                color: "#AB3117"
             },
             recovered: {
                 hide: false,
-                color: "#F4B926"
+                color: "#3681D0"
             }, 
             payload: [
-                {color: "#8884d8",
+                {color: "#E3AD25",
                 dataKey: "confirmed",
                 inactive: false,
                 type: "line",
                 value: "Confirmed"},
-                {color: "#912710",
+                {color: "#AB3117",
                 dataKey: "deaths",
                 inactive: false,
                 type: "line",
                 value: "Deaths"},
-                {color: "#F4B926",
+                {color: "#3681D0",
                 dataKey: "recovered",
                 inactive: false,
                 type: "line",
@@ -59,7 +59,6 @@ class StatsLineChart extends React.Component {
 
         var lineToUpdate = Object.assign({}, this.state[key])
         lineToUpdate.hide = !lineToUpdate.hide
-        console.log(lineToUpdate)
 
         this.setState({
             payload: newPayload,

@@ -30,8 +30,6 @@ class StatisticsPage extends React.Component {
             loading: true
         }
 
-        console.log(this.props.location.search.split("=")[1])
-
         query = gql`query ($country: String) {
             country(name: $country) {
               name
