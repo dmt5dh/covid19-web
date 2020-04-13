@@ -50,7 +50,7 @@ class SummaryTable extends React.Component {
     }
 
     return (
-      <div className="md:mx-32 mx-8">
+      <div className="md:mx-32 mx-8 my-4">
         <div className="w-full flex justify-between">
           <h1 className="underline text-md sm:text-xl mb-1">
             {this.props.title}
