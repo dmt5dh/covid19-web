@@ -99,6 +99,7 @@ class StatsLineChart extends React.Component {
             )}
             {!this.state.confirmed.hide && (
               <YAxis
+                tick={{fontSize: 12}}
                 yAxisId="confirmed"
                 axisLine={false}
                 tickLine={false}
@@ -119,6 +120,7 @@ class StatsLineChart extends React.Component {
             )}
             {!this.state.deaths.hide && (
               <YAxis
+                tick={{fontSize: 12}}
                 yAxisId="deaths"
                 axisLine={false}
                 tickLine={false}
@@ -140,6 +142,7 @@ class StatsLineChart extends React.Component {
             )}
             {!this.state.recovered.hide && (
               <YAxis
+                tick={{fontSize: 12}}
                 yAxisId="recovered"
                 axisLine={false}
                 tickLine={false}
