@@ -7,7 +7,7 @@ import {
   XAxis,
   YAxis,
   Tooltip,
-  CartesianGrid,
+  Brush,
 } from "recharts"
 
 class StatsLineChart extends React.Component {
@@ -149,8 +149,6 @@ class StatsLineChart extends React.Component {
               />
             )}
 
-            {/* <CartesianGrid strokeDasharray="5 5" /> */}
-
             <XAxis interval="preserveStartEnd" dataKey="date" />
 
             <Legend
@@ -159,6 +157,42 @@ class StatsLineChart extends React.Component {
               onClick={this.handleLegendClick}
               payload={this.state.payload}
             />
+
+            <Brush dataKey="date" data={this.state.data}>
+              <LineChart data={this.state.data}>
+                {!this.state.confirmed.hide && (
+                  <Line
+                    type="monotone"
+                    dataKey="confirmed"
+                    stroke={this.state.confirmed.color}
+                    dot={false}
+                    yAxisId="confirmed"
+                    hide={this.state.confirmed.hide}
+                  />
+                )}
+                  {!this.state.deaths.hide && (
+                    <Line
+                      type="monotone"
+                      dataKey="deaths"
+                      stroke={this.state.deaths.color}
+                      dot={false}
+                      yAxisId="deaths"
+                      hide={this.state.deaths.hide}
+                    />
+                  )}
+                  {!this.state.recovered.hide && (
+                    <Line
+                      type="monotone"
+                      dataKey="recovered"
+                      stroke={this.state.recovered.color}
+                      dot={false}
+                      yAxisId="recovered"
+                      hide={this.state.recovered.hide}
+                    />
+                  )}
+              </LineChart>
+            </Brush>
+
             <Tooltip />
           </LineChart>
         </ResponsiveContainer>
