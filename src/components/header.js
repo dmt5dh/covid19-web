@@ -2,7 +2,6 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
-import Search from "./search/search"
 
 const Header = ({ siteTitle }) => (
   <nav className="w-full bg-indigo-700 p-4 md:p-6 text-xl sticky top-0 z-50">
