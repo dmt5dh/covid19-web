@@ -63,12 +63,12 @@ const StatisticsPage = (props) => {
                     <td className="border px-4 py-2 text-center">
                       {data.country.results[
                         data.country.results.length - 1
-                      ].deaths.toLocaleString("en")}
+                      ].recovered.toLocaleString("en")}
                     </td>
                     <td className="border px-4 py-2 text-center">
                       {data.country.results[
                         data.country.results.length - 1
-                      ].recovered.toLocaleString("en")}
+                      ].deaths.toLocaleString("en")}
                     </td>
                   </tr>
                 </tbody>
